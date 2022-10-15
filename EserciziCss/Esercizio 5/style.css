@@ -1,0 +1,68 @@
+/* HO TENTATO DI RENDERE RESPONSIVE SIA L'IMMAGINE CHE IL FONT.
+(PER QUANTO RIGUARDA IL FONT ANCORA DEVO TROVARE LE GIUSTE MISURE
+E CAPIRE BENE COME RAPPORTARMI) */
+
+/* **** FONT RULES **** */
+
+.title {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+a {
+  font-size: 0.8em;
+}
+/* **** MAIN **** */
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+/* **** HEADER **** */
+
+article {
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 5px;
+  width: 300px;
+}
+
+/* **** TITLE AND ITEMS SECTION **** */
+
+.titlesection,
+section,
+a {
+  padding: 10px;
+}
+
+section {
+  border-bottom: 1px solid rgb(201, 200, 200);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  max-height: 25px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* **** FOOTER ***** */
+footer {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+}
+
+
